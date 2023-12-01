@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #161616;
+    background-image: url('../img/fundo.svg');
+}
+
+header {
+    /* border-bottom: 1px solid rgb(48, 47, 47); */
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.email i {
+    border: 1px solid rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.email:hover i {
+    color: rgb(48, 47, 47);
+}
+
+.email p {
+    display: none;
+}
+
+.redes-sociais {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.redes-sociais li i {
+    border: 1px solid rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.redes-sociais li:hover i {
+    color: rgb(48, 47, 47);
+}
+
+/** ----------------- Main ----------------- **/
+
+main {
+    margin-top: 50px;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-info i {
+    color: rgb(248, 248, 0);
+}
+
+.profile-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-modificado {
+    text-align: center;
+    background: linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile-about .github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+
+    border: 1px solid rgb(48, 47, 47);
+    padding: 0 20px;
+    width: fit-content;
+}
+
+.github p,
+.github i {
+    color: white;
+    transition: all .3s ease;
+}
+
+.github:hover.github p,
+.github:hover.github i {
+    color: rgb(48, 47, 47);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+    color: rgb(158, 158, 158);
+}
+
+footer .redes-sociais {
+    display: none;
+}
