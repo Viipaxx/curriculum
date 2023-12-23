@@ -1,0 +1,15 @@
+/** min-width será aplicado tudo q estiver igual ou acima dos pixels definidos acima */
+
+@media screen and (min-width: 601px) { 
+
+
+    header nav p {
+        display: block;
+    }
+
+    .email i, .redes-sociais i {
+        display: none;
+    }
+
+
+}
